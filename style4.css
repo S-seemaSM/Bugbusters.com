@@ -1,0 +1,39 @@
+
+
+h1 {
+    text-align: center;
+    font: 50px 'Cookie', cursive;
+    padding-top: 10px;
+    margin-top: 50px;
+    color: rgb(2, 3, 3);
+    }
+.special{
+        background: white;
+        color: white;
+        padding: 20px;
+        font-size: 40px;
+        text-align: center;
+
+    
+        padding: 10px;
+        font-size: 40px;
+        border: none;
+        border-radius: 20px;
+}
+    
+    
+     button {
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        background-color: #005f99;
+        color: white;
+        cursor: pointer;
+    }
+    p{
+        text-align: center;
+    }
+
+
+        

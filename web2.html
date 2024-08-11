@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Reports</title>
+    <style>
+       
+        body {
+          font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background:url(back2.jpg) no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            width: 80%;
+            max-width: 1200px;
+            font:  normal  15px 'Cookie', cursive ;
+        }
+        .weather-card {
+            background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .weather-card h2 {
+            margin: 0 0 10px;
+            font-size: 24px;
+            color: #333;
+        }
+        .weather-card p {
+            margin: 5px 0;
+            font-size: 18px;
+            color: #555;
+        }
+        .north { background-color: #e0f7fa; }
+        .east { background-color: #fff3e0; }
+        .west { background-color: #e8f5e9; }
+        .south { background-color: #ffe0b2; }
+    </style>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="weather-card north">
+            <h2>North</h2>
+            <p>Temperature: 20°C</p>
+            <p>Condition: Clear</p>
+        </div>
+        <div class="weather-card east">
+            <h2>East</h2>
+            <p>Temperature: 25°C</p>
+            <p>Condition: Partly Cloudy</p>
+        </div>
+        <div class="weather-card west">
+            <h2>West</h2>
+            <p>Temperature: 18°C</p>
+            <p>Condition: Rain Showers</p>
+        </div>
+        <div class="weather-card south">
+            <h2>South</h2>
+            <p>Temperature: 30°C</p>
+            <p>Condition: Sunny</p>
+        </div>
+    </div>
+</body>
+</html>
